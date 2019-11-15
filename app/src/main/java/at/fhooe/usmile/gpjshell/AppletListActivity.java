@@ -29,7 +29,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import at.fhooe.usmile.gpjshell.MainActivity.APDU_COMMAND;
 import at.fhooe.usmile.gpjshell.objects.GPChannelSet;
 import at.fhooe.usmile.gpjshell.objects.GPKeyset;
 

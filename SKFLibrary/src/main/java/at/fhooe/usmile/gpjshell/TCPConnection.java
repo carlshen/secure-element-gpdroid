@@ -11,6 +11,9 @@
  ******************************************************************************/
 package at.fhooe.usmile.gpjshell;
 
+import android.app.Activity;
+import android.util.Log;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -20,11 +23,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
-import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
-
-import android.app.Activity;
-import android.util.Log;
 
 public class TCPConnection implements Runnable {
 
@@ -123,7 +122,8 @@ public class TCPConnection implements Runnable {
 
 			@Override
 			public void run() {
-				MainActivity.log().d("TCP", "From client: " + st);
+				// need log
+//				MainActivity.log().d("TCP", "From client: " + st);
 			}
 		});
 	}

@@ -78,10 +78,6 @@ public class MainActivity extends Activity implements SEService.CallBack,
 	private ArrayAdapter<String> mKeysetAdapter;
 	private ArrayAdapter<String> mChannelSetAdapter;
 
-	public enum APDU_COMMAND {
-		APDU_INSTALL, APDU_DELETE_SENT_APPLET, APDU_DISPLAYAPPLETS_ONCARD, APDU_SELECT, APDU_SEND, APDU_GET_DATA, APDU_DELETE_SELECTED_APPLET
-	}
-
 	private String mAppletUrl = null;
 	private TextView mFileNameView = null;
 	private Map<String, GPKeyset> mKeysetMap = null;

@@ -1,0 +1,9 @@
+package at.fhooe.usmile.gpjshell;
+
+/**
+ * Created by dell on 2019/11/15.
+ */
+
+public enum APDU_COMMAND {
+    APDU_INSTALL, APDU_DELETE_SENT_APPLET, APDU_DISPLAYAPPLETS_ONCARD, APDU_SELECT, APDU_SEND, APDU_GET_DATA, APDU_DELETE_SELECTED_APPLET
+}

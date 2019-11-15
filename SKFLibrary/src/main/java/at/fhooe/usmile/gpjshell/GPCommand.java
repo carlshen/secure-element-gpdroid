@@ -11,8 +11,6 @@
  ******************************************************************************/
 package at.fhooe.usmile.gpjshell;
 
-import at.fhooe.usmile.gpjshell.MainActivity.APDU_COMMAND;
-
 public class GPCommand {
 
 	private byte[] mParams;

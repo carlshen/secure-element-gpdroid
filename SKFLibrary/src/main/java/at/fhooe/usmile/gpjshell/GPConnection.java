@@ -295,12 +295,12 @@ public class GPConnection {
 				ret = listApplets(_cmd.getSeekReaderName());
 				channel.close();	
 				
-				Intent intent = new Intent(mContext, AppletListActivity.class);
-				intent.putExtra(AppletListActivity.EXTRA_CHANNELSET, channelSet);
-				intent.putExtra(AppletListActivity.EXTRA_KEYSET, keyset);
-				intent.putExtra(AppletListActivity.EXTRA_SEEKREADER, _cmd.getSeekReader());
-				
-				mContext.startActivity(intent);
+//				Intent intent = new Intent(mContext, AppletListActivity.class);
+//				intent.putExtra(AppletListActivity.EXTRA_CHANNELSET, channelSet);
+//				intent.putExtra(AppletListActivity.EXTRA_KEYSET, keyset);
+//				intent.putExtra(AppletListActivity.EXTRA_SEEKREADER, _cmd.getSeekReader());
+//
+//				mContext.startActivity(intent);
 				closeConn = false;
 				break;
 
